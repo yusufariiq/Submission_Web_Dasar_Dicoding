@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <img src="assets/head.svg" height="200px" class="head-bg">
+        </div>
+        <nav class="navbar" id="myNavbar">
+                <a href="index.html" class="home"><i class="fa fa-home fa-lg"></i></a>
+                <a href="pagehtml.html">HTML</a>
+                <a href="pagecss.html">CSS</a>
+                <a href="pagejs.html">JavaScript</a>
+                <a href="javascript:void(0);" class="icon" onclick="bar()"><i class="fa fa-bars"></i></a></li>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="home" class="content">
+                <h1 style="font-size: 35px;">Hypertext Markup Language (HTML)</HTML></h1>
+                <img src="assets/HTML.jpg" class="content-img">
+                <p>Menurut <a href="https://id.wikipedia.org/wiki/HTML" target="blank">Wikipedia</a> Hypertext Markup Language (HTML) adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet. Ini dapat dibantu oleh teknologi seperti Cascading Style Sheets (CSS) dan bahasa scripting seperti JavaScript dan VBScript.
+                Peramban internet menerima dokumen HTML dari server web atau dari penyimpanan lokal dan membuat dokumen menjadi halaman web multimedia. HTML menggambarkan struktur halaman web secara semantik dan isyarat awal yang disertakan untuk penampilan dokumen.
+                HTML dapat menyematkan program yang ditulis dalam bahasa scripting seperti JavaScript, yang memengaruhi perilaku dan konten halaman web. Dimasukkannya CSS mendefinisikan tampilan dan tata letak konten.
+                </p><br>
+                
+                <h2>Kegunaan HTML</h2><br>
+                <p> Berikut ini beberapa fungsi dan tujuan dari penerapan HTML untuk pembuatan situs atau web app. Fungsi utama penggunaan HTML sendiri adalah membangun tampilan website yang telah menerapkan metode semantik untuk memudahkan setiap pengembang dalam proses development dan maintenance.
+                 Kemudian, HTML juga dapat dikolaborasikan dengan penggunaan bahasa CSS (Cascade Style Sheet) serta JavaScript.
+                </p><br>
+
+                <h2>Struktur HTML</h2><br>
+                <section>
+                    <h3>1. Head</h3>
+                    <p>Dokumen HTML diapit oleh tag &lt;head&gt;. Di dalam bagian ini biasanya dimuat tag TITLE yang menampilkan judul halaman pada titlenya browser. 
+                     Selain itu Bookmark juga menggunakan tag TITLE untuk memberi mark suatu web site. Browser menyimpan “title” sebagai bookmark dan juga untuk keperluan pencarian (searching) biasanya title digunakan sebagai keyword. 
+                     Header juga memuat tag META yang biasanya dapat digunakan untuk menentukan informasi tertentu mengenai dokumen HTML.
+                    </p><br>
+                    
+                    <h3>2. Body</h3>
+                    <p>Bagian BODY, yang dinyatakan dengan tag &lt;body&gt;, merupakan tubuh atau isi dari dokumen HTML di mana anda meletakan informasi yang akan ditampilkan pada browser.
+                    </p><br>
+
+                    <h3>3. Tag</h3>
+                    <p>HTML tidak membedakan penggunaan huruf besar ataupun huruf kecil dari suatu elemen. Suatu elemen HTML terdiri dari tag-tag beserta teks yang ada dalam tag-tag tersebut.
+                        Tag biasanya merupakan suatu pasangan yang disebut dengan:<br>
+                        &bull; Tag awal, dinyatakan dalam bentuk &lt;nama tag&gt;<br>
+                        &bull; Tag akhir, dinyatakan dalam bentuk &lt;nama tag&gt;<br>
+                        Formatnya: &lt;nama tag&gt; teks yang ditampilkan &lt;nama tag&gt;.
+                    </p><br>
+
+                    <h3>4. Atribut</h3>
+                    <p>Attribute, merupakan informasi atau perintah tambahan yang dimasukkan ke dalam sebuah elemen. 
+                     Misalnya saja &lt;img class=”gambar” src=”komputer.jpg” alt=”komputer1” /&gt;, sehingga atributnya adalah class, src dan alt image.
+                    </p><br>
+                </section>
+        
+                
+            </article>
+            
+            <div class="flex-container">
+                <div class="first box">
+                    <article class="button-page">
+                        <h2>HTML</h2>
+                        <img src="assets/HTML.jpg" class="featured-image">
+                        <a href="pagehtml.html">
+                            <p class="btn message">Selengkapnya</p>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="second box">
+                    <article class="button-page">
+                        <h2>CSS</h2>
+                        <img src="assets/css.jpeg" class="featured-image">
+                        <a href="pagecss.html">
+                            <p class="btn message">Selengkapnya</p>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="third box">
+                    <article class="button-page">
+                        <h2>JavaScript</h2>
+                        <img src="assets/js.png" class="featured-image">
+                        <a href="pagejs.html">
+                            <p class="btn message">Selengkapnya</p>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+        
+        <aside>
+            <article class="profile content" id="about">
+                <header>
+                    <h2>Developer Profile</h2>
+                    <figure>
+                        <img src="assets/profile.jpg" class="rounded">
+                        <figcaption>Ariiq Yusuf</figcaption>
+                    </figure>
+                    <p>Halo! perkenalkan nama saya Ariiq Yusuf, saya berusia 18 tahun dan berasal dari Depok. Saya merupakan mahasiswa semester 2 Teknik Informatika yang masih belajar dan mengembangkan sebuah website.</p>
+                    <section>
+                        <a href="https://www.instagram.com/yusufariiq_/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/ariiq-yusuf-dhiya-ulhaq-23abb2223" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                        <a href="mailto:ariiqyusufdu@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                    </section>
+                </header>
+            </article>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2022 by Ariiq Yusuf</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

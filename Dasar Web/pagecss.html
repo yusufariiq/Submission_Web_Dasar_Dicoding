@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <img src="assets/head.svg" height="200px" class="head-bg">
+        </div>
+        <nav class="navbar" id="myNavbar">
+                <a href="index.html" class="home"><i class="fa fa-home fa-lg"></i></a>
+                <a href="pagehtml.html">HTML</a>
+                <a href="pagecss.html">CSS</a>
+                <a href="pagejs.html">JavaScript</a>
+                <a href="javascript:void(0);" class="icon" onclick="bar()"><i class="fa fa-bars"></i></a></li>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="home" class="content">
+                <h1 style="font-size: 35px;">Cascading Style Sheets (CSS)</h1>
+                <img src="assets/css1.jpg" class="content-img">
+                <p>Menurut <a href="https://id.wikipedia.org/wiki/Cascading_Style_Sheets" target="blank">Wikipedia</a> Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman.
+                 CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran border, warna border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar teks, margin kiri, kanan, atas, bawah, dan parameter lainnya. 
+                 CSS adalah bahasa style sheet yang digunakan untuk mengatur tampilan dokumen. Dengan adanya CSS memungkinkan kita untuk menampilkan halaman yang sama dengan format yang berbeda.
+                </p><br>
+                
+                <h2>Kegunaan CSS</h2><br>
+                <p> Kegunaan utama dari CSS adalah mendesain tampilan web agar menarik, tapi bukan hanya itu saja. CSS juga dapat membuat halaman website kita lebih cepat dimuat, memudahkan proses pemeliharaan, kompatibel dengan berbagai macam perangkat
+                    dan menjadi standar pengembangan website dikarenakan style yang dimiliki CSS lebih beragam dibanding HTML.
+                </p><br>
+
+                <h2>3 Macam penempatan CSS dalam HTML</h2><br>
+                <section>
+                    <h3>&bull; Inline CSS</h3>
+                    <p>Inline CSS adalah penempatan CSS yang langsung dilakukan di dalam konten HTML. Penempatan CSS secara inline hanya akan mempengaruhi satu bagian baris kode.</p>
+                    <br>
+                    
+                    <h3>&bull; Internal CSS</h3>
+                    <p>Internal CSS sekilas mirip dengan inline CSS, yaitu tipe penulisan tanpa file CSS terpisah. Namun di dalam penggunaan CSS secara internal, baris kode HTML dituliskan di bagian atas (header) file HTML. 
+                        Cara ini akan sangat cocok dipakai untuk menciptakan halaman web dengan tampilan yang berbeda. Dengan kata lain, CSS ini bisa dipakai untuk menciptakan tampilan yang unik.
+                    </p><br>
+
+                    <h3>&bull; External CSS</h3>
+                    <p>External CSS adalah penempatan baris kode CSS menggunakan file .css. Cata ini dapat digunakan untuk mendeklarasikan sebagian besar pengaturan tampilan website secara keseluruhan.
+                     Cara ini lebih sederhana dan simpel daripada menambahkan baris kode di setiap elemen HTML yang ingin Anda atur tampilannya.
+                    </p><br>
+                </section>
+            </article>
+            
+            <div class="flex-container">
+                <div class="first box">
+                    <article class="button-page">
+                        <h2>HTML</h2>
+                        <img src="assets/HTML.jpg" class="featured-image">
+                        <a href="pagehtml.html">
+                            <p class="btn message">Selengkapnya</p>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="second box">
+                    <article class="button-page">
+                        <h2>CSS</h2>
+                        <img src="assets/css.jpeg" class="featured-image">
+                        <a href="pagecss.html">
+                            <p class="btn message">Selengkapnya</p>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="third box">
+                    <article class="button-page">
+                        <h2>JavaScript</h2>
+                        <img src="assets/js.png" class="featured-image">
+                        <a href="pagejs.html">
+                            <p class="btn message">Selengkapnya</p>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+        
+        <aside>
+            <article class="profile content" id="about">
+                <header>
+                    <h2>Developer Profile</h2>
+                    <figure>
+                        <img src="assets/profile.jpg" class="rounded">
+                        <figcaption>Ariiq Yusuf</figcaption>
+                    </figure>
+                    <p>Halo! perkenalkan nama saya Ariiq Yusuf, saya berusia 18 tahun dan berasal dari Depok. Saya merupakan mahasiswa semester 2 Teknik Informatika yang masih belajar dan mengembangkan sebuah website.</p>
+                    <section>
+                        <a href="https://www.instagram.com/yusufariiq_/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/ariiq-yusuf-dhiya-ulhaq-23abb2223" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                        <a href="mailto:ariiqyusufdu@gmail.com" target="blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                    </section>
+                </header>
+            </article>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2022 by Ariiq Yusuf</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
